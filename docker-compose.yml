@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  ai-bot:
+    build: .
+    image: my-ai-devops-app:latest
+    container_name: devops_ai_assistant
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
