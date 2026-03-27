@@ -28,7 +28,7 @@ if st.button("Сгенерировать инфраструктуру"):
             ports:
               - "6379:6379"
         ```
-        Сохраните это в файл и выполните `docker-compose up -d`.
+       
         """
         st.success("Готово!")
         st.markdown(fake_ai_response)
