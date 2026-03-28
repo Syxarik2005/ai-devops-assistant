@@ -10,7 +10,7 @@
 * **Приложение:** Python 3.10, Streamlit
 
 ### 🚀 Как запустить локально:
-1. `git clone https://github.com/ВАШ_НИК/ai-devops-assistant.git`
+1. `git clone https://github.com/Syxarik2005/ai-devops-assistant.git`
 2. `cd ai-devops-assistant`
 3. `docker-compose up -d --build`
 4. Откройте `http://localhost:8501` в браузере.
